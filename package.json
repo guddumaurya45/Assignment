@@ -2,6 +2,7 @@
   "name": "material-dashboard-2-react",
   "version": "2.0.0",
   "private": true,
+  "homepage": "https://guddumaurya45.github.io/react-gh-pages",
   "author": "Creative Tim",
   "license": "See license in https://www.creative-tim.com/license",
   "description": "React version of Material Dashboard 2 by Creative Tim",
@@ -42,6 +43,8 @@
     "yup": "0.32.9"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -75,6 +78,7 @@
     "eslint-plugin-prettier": "3.4.0",
     "eslint-plugin-react": "7.24.0",
     "eslint-plugin-react-hooks": "4.2.0",
+    "gh-pages": "^3.2.3",
     "prettier": "2.3.2"
   }
 }
